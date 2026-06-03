@@ -17,7 +17,30 @@
             <button type="submit">Добавить</button>
         </form>
 
+        <button id="clear-all-btn">Удалить все</button>
+
+        <div class = "stats">
+            <span id="total-count">Всего: 0</span>
+            <span id="completed-count">Выполнено: 0</span>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <p id="progress-text">Прогресс: 0%</p>
+
         <div id="habits-list"></div>
+
+        <div class="period-stats">
+            <p id="week-progress">За неделю: 0%</p>
+            <p id="month-progress">За месяц: 0%</p>
+        </div>
+
+        <div class="top-habits">
+            <h3>🏆 Лучшие привычки</h3>
+            <div id="top-habits-list"></div>
+        </div>
     </div>
 
     <!--Подключаем наш скрипт app.js-->
