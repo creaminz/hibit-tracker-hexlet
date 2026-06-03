@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Устанавливает ширину =ширине экрана устройства и выстанавливает маштаб 1:1-->
+    <title>Трекер привычек</title>
+    <link rel="stylesheet" href="style.css"> <!--Устанавливаем связь с style.css-->
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Moи привычки</h1>
+
+        <!--Форма для добавления привычек-->
+        <form id="habit-form">
+            <input type="text" id="habit-input" placeholder="Например: Вынести мусор" required>
+            <button type="submit">Добавить</button>
+        </form>
+
+        <div id="habits-list"></div>
+    </div>
+
+    <!--Подключаем наш скрипт app.js-->
+    <script src="app.js"></script>
+</body>
+</html>
